@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#eee;
+   margin: 0;
+   padding: 0;
+   font-family:Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+  
+}
+a{
+    text-decoration: none;
+    color:black ;
+
+    
+}
+#header{
+    position: fixed;
+   display: flex;
+   width: 100%;
+  margin: 0;
+  padding: 10px 0 30px 0;
+  justify-content: space-between;
+  background:#eee
+  
+ 
+}
+#header-img{
+   width: 250px;
+   height: 40px;
+  
+}
+#nav-bar ul{
+    list-style: none;
+   
+       display: flex;
+       margin: 0;
+       padding-top: 10px;
+}
+#nav-bar ul li{
+    font-size: 20px;
+    padding: 0;
+    margin: 0 35px;
+   
+}
+#form{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom:30px ;
+   
+    width: 100%;
+    text-align: center;
+}
+#email{
+    width: 250px;
+    justify-self: flex-start;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+#submit{
+    background: rgb(205, 219, 7);
+    border:1px solid grey;
+    width:150px;
+    font-size: 20px;
+    margin: 0 auto;
+    
+}
+
+#features{
+
+    margin: 0 auto;
+    margin-top:50px ;
+    width: 60%;
+}
+#features div{
+    display: flex;
+    
+}
+i{
+   
+    padding:0;
+    width:50px;
+    padding-top: 18px;
+}
+section{
+    padding-left: 20px;
+    padding-top: 0;
+    margin: 0;
+    margin-left: 30px;
+    line-height: 30px;
+}
+#show-it-works{
+    
+    margin:0 auto;
+    margin-bottom: 70px;
+}
+#pricing{
+   
+   display: flex;
+   margin: 0 auto;
+}
+#price-box{
+    border: 1px solid black;
+    width:250px;
+    margin: 0 10px;
+    text-align: center;
+   padding-bottom: 60px;
+}
+article{
+
+   margin: 0;
+  display: block;
+  padding-bottom: 30px;
+
+}
+#price-box h3{
+    margin: 0;
+    padding:9px 0 ;
+   
+    background: rgb(180, 175, 175);
+}
+#price-box a{
+    background: rgb(231, 235, 8);
+    padding: 10px 15px;
+}
+#footer{
+    background-color: rgb(212, 206, 206);
+    margin-top: 29px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+text-align: end;
+}
+#footer ul{
+  
+  display: flex;
+    list-style: none;
+    margin: 10px 10px 0 auto;
+}
+#footer ul li{
+ margin: 0 10px;
+}
+#footer p{
+    font-size: 15px;
+}
+@media screen and (max-width:768px)
+{
+    #nav-bar{
+        margin: 0 auto;
+    }
+    #nav-bar ul{
+        
+        display: flex;
+        flex-direction:column;
+      
+    }
+        
+    #form h1{
+      
+        padding-top: 40px;
+        font-size: 25px;
+    }
+    
+    #pricing{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 40%;
+       margin: 0 auto;
+    }
+    #price-box{
+        margin-bottom: 30px;
+        width: 300px;
+        
+    }
+}
+        
